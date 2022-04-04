@@ -19,4 +19,3 @@ Console.WriteLine("Dimensioni: " + lunghezza+ " x " + spessore + " x " + altezza
 
 
 
-
