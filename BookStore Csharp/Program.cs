@@ -13,7 +13,24 @@ Console.WriteLine("Peso articolo: " + peso + " g\n");
 float lunghezza = 17.78f;
 float spessore = 1.52f;
 float altezza = 25.4f;
-Console.WriteLine("Dimensioni: " + lunghezza+ " x " + spessore + " x " + altezza +  " cm\n");
+Console.WriteLine("Dimensioni: " + lunghezza + " x " + altezza + " x " + spessore +  " cm\n");
+float valutazione = 4.4f;
+Console.WriteLine("Valutazione media: " + valutazione + " su 5\n");
+int numeroRecensioni = 72;
+Console.WriteLine("Numero di recensioni : " + numeroRecensioni + "\n");
+
+string kindle = "No";
+string copertina = "Si";
+Console.WriteLine("Disponibilità in kindle: " + kindle);
+Console.WriteLine("Disponibilità con copertina flessibile : " + copertina);
+
+
+
+
+
+
+
+
 
 
 
