@@ -1,40 +1,51 @@
 ﻿// See https://aka.ms/new-console-template for more information
-// See https://aka.ms/new-console-template for more information
 Console.Write("Digita il titolo del libro: ");
 string titolo = Console.ReadLine();
+Console.Clear();
 
-Console.Write("\n Digita l'autore del libro: ");
+Console.Write(" Digita l'autore del libro: ");
 string autore = Console.ReadLine();
+Console.Clear();
 
-Console.Write("\n Digita l'isbn dell'articolo: ");
+Console.Write(" Digita l'isbn dell'articolo: ");
 string isbn = Console.ReadLine();
+Console.Clear();
 
-Console.Write("\n Digita le pagine dell'articolo, sono ammessi solo valori numerici: ");
+Console.Write(" Digita le pagine dell'articolo, sono ammessi solo valori numerici: ");
 string pagine = Console.ReadLine();
+Console.Clear();
 
-Console.Write("\n Digita il peso dell'articolo in grammi: ");
+Console.Write(" Digita il peso dell'articolo in grammi: ");
 string peso = Console.ReadLine();
+Console.Clear();
 
-Console.Write("\n Digita la lunghezza del libro, sono ammessi solo valori numerici: ");
+Console.Write(" Digita la lunghezza del libro, sono ammessi solo valori numerici: ");
 string lunghezza = Console.ReadLine();
+Console.Clear();
 
-Console.Write("\n Digita lo spessore del libro, sono ammessi solo valori numerici: ");
+Console.Write(" Digita lo spessore del libro, sono ammessi solo valori numerici: ");
 string spessore = Console.ReadLine();
+Console.Clear();
 
-Console.Write("\n Digita l'altezza del libro, sono ammessi solo valori numerici: ");
+Console.Write(" Digita l'altezza del libro, sono ammessi solo valori numerici: ");
 string altezza = Console.ReadLine();
+Console.Clear();
 
-Console.Write("\n Digita la valutazione del libro che va da 0 a 5: ");
+Console.Write(" Digita la valutazione del libro che va da 0 a 5: ");
 string valutazione = Console.ReadLine();
+Console.Clear();
 
-Console.Write("\n Digita il numero di recensioni che sono state effetuate: ");
+Console.Write(" Digita il numero di recensioni che sono state effetuate: ");
 string numeroRecensioni = Console.ReadLine();
+Console.Clear();
 
-Console.Write("\n è disponibile il formato kindle? ");
+Console.Write(" è disponibile il formato kindle? ");
 string kindle = Console.ReadLine();
+Console.Clear();
 
-Console.Write("\n è disponibile il formato con copertina flessibile? ");
+Console.Write(" è disponibile il formato con copertina flessibile? ");
 string copertina = Console.ReadLine();
+Console.Clear();
 
 //conversioni stringhe in int
 int.Parse(pagine);
