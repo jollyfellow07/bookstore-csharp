@@ -13,31 +13,31 @@ string isbn = Console.ReadLine();
 Console.Clear();
 
 Console.Write(" Digita le pagine dell'articolo, sono ammessi solo valori numerici: ");
-string pagine = Console.ReadLine();
+int pagine = int.Parse(Console.ReadLine());
 Console.Clear();
 
 Console.Write(" Digita il peso dell'articolo in grammi: ");
-string peso = Console.ReadLine();
+int peso = int.Parse(Console.ReadLine());
 Console.Clear();
 
 Console.Write(" Digita la lunghezza del libro in centimetri, sono ammessi solo valori numerici: ");
-string lunghezza = Console.ReadLine();
+float lunghezza = float.Parse(Console.ReadLine());
 Console.Clear();
 
 Console.Write(" Digita lo spessore del libro in centimetri, sono ammessi solo valori numerici: ");
-string spessore = Console.ReadLine();
+float spessore = float.Parse(Console.ReadLine());
 Console.Clear();
 
 Console.Write(" Digita l'altezza del libro in centimetri, sono ammessi solo valori numerici: ");
-string altezza = Console.ReadLine();
+float altezza = float.Parse(Console.ReadLine());
 Console.Clear();
 
 Console.Write(" Digita la valutazione del libro che va da 0 a 5: ");
-string valutazione = Console.ReadLine();
+float valutazione = float.Parse(Console.ReadLine());
 Console.Clear();
 
 Console.Write(" Digita il numero di recensioni che sono state effetuate: ");
-string numeroRecensioni = Console.ReadLine();
+int numeroRecensioni = int.Parse(Console.ReadLine());
 Console.Clear();
 
 Console.Write(" è disponibile il formato kindle? ");
@@ -47,17 +47,6 @@ Console.Clear();
 Console.Write(" è disponibile il formato con copertina flessibile? ");
 string copertina = Console.ReadLine();
 Console.Clear();
-
-//conversioni stringhe in int
-int.Parse(pagine);
-int.Parse(peso);
-int.Parse(numeroRecensioni);
-
-//conversioni stringhe in float
-float.Parse(lunghezza);
-float.Parse(altezza);
-float.Parse(spessore);
-float.Parse(valutazione);
 
 //stampa di tutta la descrizione
 Console.WriteLine("Titolo: " + titolo + "\n");
