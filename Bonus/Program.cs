@@ -1,4 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
+//
 Console.Write("Digita il titolo del libro: ");
 string titolo = Console.ReadLine();
 Console.Clear();
@@ -19,15 +20,15 @@ Console.Write(" Digita il peso dell'articolo in grammi: ");
 string peso = Console.ReadLine();
 Console.Clear();
 
-Console.Write(" Digita la lunghezza del libro, sono ammessi solo valori numerici: ");
+Console.Write(" Digita la lunghezza del libro in centimetri, sono ammessi solo valori numerici: ");
 string lunghezza = Console.ReadLine();
 Console.Clear();
 
-Console.Write(" Digita lo spessore del libro, sono ammessi solo valori numerici: ");
+Console.Write(" Digita lo spessore del libro in centimetri, sono ammessi solo valori numerici: ");
 string spessore = Console.ReadLine();
 Console.Clear();
 
-Console.Write(" Digita l'altezza del libro, sono ammessi solo valori numerici: ");
+Console.Write(" Digita l'altezza del libro in centimetri, sono ammessi solo valori numerici: ");
 string altezza = Console.ReadLine();
 Console.Clear();
 
@@ -51,11 +52,13 @@ Console.Clear();
 int.Parse(pagine);
 int.Parse(peso);
 int.Parse(numeroRecensioni);
+
 //conversioni stringhe in float
 float.Parse(lunghezza);
 float.Parse(altezza);
 float.Parse(spessore);
 float.Parse(valutazione);
+
 //stampa di tutta la descrizione
 Console.WriteLine("Titolo: " + titolo + "\n");
 Console.WriteLine("Autore: " + autore + "\n");
@@ -69,4 +72,3 @@ Console.WriteLine("Disponibilità con copertina flessibile : " + copertina);
 
 //system pause finchè non diamo un input
 Console.ReadKey();
-
