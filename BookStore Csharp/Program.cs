@@ -21,8 +21,12 @@ Console.WriteLine("Numero di recensioni : " + numeroRecensioni + "\n");
 
 string kindle = "No";
 string copertina = "Si";
-Console.WriteLine("Disponibilità in kindle: " + kindle);
+Console.WriteLine("Disponibilità in kindle: " + kindle + "\n");
 Console.WriteLine("Disponibilità con copertina flessibile : " + copertina);
+
+
+//system pause finchè non diamo un input
+Console.ReadKey();
 
 
 
